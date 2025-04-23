@@ -1,37 +1,37 @@
-[debug] [2025-04-23T03:55:33.194Z] ----------------------------------------------------------------------
-[debug] [2025-04-23T03:55:33.201Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\beaua\Desktop\beau\SoftwareEnginerring\Lab11\GitHubActionAtipat\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
-[debug] [2025-04-23T03:55:33.202Z] CLI Version:   14.2.0
-[debug] [2025-04-23T03:55:33.203Z] Platform:      win32
-[debug] [2025-04-23T03:55:33.203Z] Node Version:  v20.17.0
-[debug] [2025-04-23T03:55:33.203Z] Time:          Wed Apr 23 2025 10:55:33 GMT+0700 (เวลาอินโดจีน)
-[debug] [2025-04-23T03:55:33.204Z] ----------------------------------------------------------------------
+[debug] [2025-04-23T06:03:53.535Z] ----------------------------------------------------------------------
+[debug] [2025-04-23T06:03:53.538Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\beaua\Desktop\beau\SoftwareEnginerring\Lab11\GitHubActionAtipat\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-04-23T06:03:53.539Z] CLI Version:   14.2.0
+[debug] [2025-04-23T06:03:53.539Z] Platform:      win32
+[debug] [2025-04-23T06:03:53.539Z] Node Version:  v20.17.0
+[debug] [2025-04-23T06:03:53.539Z] Time:          Wed Apr 23 2025 13:03:53 GMT+0700 (เวลาอินโดจีน)
+[debug] [2025-04-23T06:03:53.539Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2025-04-23T03:55:33.908Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2025-04-23T03:55:33.909Z] > authorizing via signed-in user (beau.atipat@gmail.com)
+[debug] [2025-04-23T06:03:53.833Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-23T06:03:53.835Z] > authorizing via signed-in user (beau.atipat@gmail.com)
 [info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
-[debug] [2025-04-23T03:55:33.929Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-04-23T03:55:33.930Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-04-23T03:55:33.930Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":9999}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[debug] [2025-04-23T03:55:33.946Z] [hub] writing locator at C:\Users\beaua\AppData\Local\Temp\hub-githubactionatipat.json
-[debug] [2025-04-23T03:55:33.979Z] Checked if tokens are valid: true, expires at: 1745383127315
-[debug] [2025-04-23T03:55:33.980Z] Checked if tokens are valid: true, expires at: 1745383127315
-[debug] [2025-04-23T03:55:33.983Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionatipat/sites 
-[debug] [2025-04-23T03:55:34.922Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionatipat/sites 200
-[debug] [2025-04-23T03:55:34.923Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionatipat/sites {"sites":[{"name":"projects/githubactionatipat/sites/githubactionatipat","defaultUrl":"https://githubactionatipat.web.app","type":"DEFAULT_SITE"}]}
-[debug] [2025-04-23T03:55:34.923Z] Checked if tokens are valid: true, expires at: 1745383127315
-[debug] [2025-04-23T03:55:34.923Z] Checked if tokens are valid: true, expires at: 1745383127315
-[debug] [2025-04-23T03:55:34.924Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubactionatipat/webApps/-/config [none]
-[debug] [2025-04-23T03:55:35.430Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubactionatipat/webApps/-/config 200
-[debug] [2025-04-23T03:55:35.430Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubactionatipat/webApps/-/config {"projectId":"githubactionatipat","storageBucket":"githubactionatipat.firebasestorage.app","apiKey":"AIzaSyDqRgIheHhOBzWeukcfq0YPkOkFB0aDJ3w","authDomain":"githubactionatipat.firebaseapp.com","messagingSenderId":"235016986741"}
-[debug] [2025-04-23T03:55:35.441Z] Checked if tokens are valid: true, expires at: 1745383127315
-[debug] [2025-04-23T03:55:35.442Z] Checked if tokens are valid: true, expires at: 1745383127315
-[debug] [2025-04-23T03:55:35.442Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubactionatipat [none]
-[debug] [2025-04-23T03:55:35.835Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubactionatipat 200
-[debug] [2025-04-23T03:55:35.836Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubactionatipat {"projectId":"githubactionatipat","projectNumber":"235016986741","displayName":"GitHubActionAtipat","name":"projects/githubactionatipat","resources":{"hostingSite":"githubactionatipat"},"state":"ACTIVE","etag":"1_101694e0-eb80-4604-a142-75b363a3f0a9"}
+[debug] [2025-04-23T06:03:53.853Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-23T06:03:53.853Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-23T06:03:53.853Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":9999}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-04-23T06:03:53.861Z] [hub] writing locator at C:\Users\beaua\AppData\Local\Temp\hub-githubactionatipat.json
+[debug] [2025-04-23T06:03:53.880Z] Checked if tokens are valid: true, expires at: 1745390685086
+[debug] [2025-04-23T06:03:53.881Z] Checked if tokens are valid: true, expires at: 1745390685086
+[debug] [2025-04-23T06:03:53.882Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionatipat/sites 
+[debug] [2025-04-23T06:03:54.708Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionatipat/sites 200
+[debug] [2025-04-23T06:03:54.708Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionatipat/sites {"sites":[{"name":"projects/githubactionatipat/sites/githubactionatipat","defaultUrl":"https://githubactionatipat.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-23T06:03:54.708Z] Checked if tokens are valid: true, expires at: 1745390685086
+[debug] [2025-04-23T06:03:54.708Z] Checked if tokens are valid: true, expires at: 1745390685086
+[debug] [2025-04-23T06:03:54.708Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubactionatipat/webApps/-/config [none]
+[debug] [2025-04-23T06:03:55.147Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubactionatipat/webApps/-/config 200
+[debug] [2025-04-23T06:03:55.148Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubactionatipat/webApps/-/config {"projectId":"githubactionatipat","storageBucket":"githubactionatipat.firebasestorage.app","apiKey":"AIzaSyDqRgIheHhOBzWeukcfq0YPkOkFB0aDJ3w","authDomain":"githubactionatipat.firebaseapp.com","messagingSenderId":"235016986741"}
+[debug] [2025-04-23T06:03:55.152Z] Checked if tokens are valid: true, expires at: 1745390685086
+[debug] [2025-04-23T06:03:55.153Z] Checked if tokens are valid: true, expires at: 1745390685086
+[debug] [2025-04-23T06:03:55.153Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubactionatipat [none]
+[debug] [2025-04-23T06:03:55.429Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubactionatipat 200
+[debug] [2025-04-23T06:03:55.430Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubactionatipat {"projectId":"githubactionatipat","projectNumber":"235016986741","displayName":"GitHubActionAtipat","name":"projects/githubactionatipat","resources":{"hostingSite":"githubactionatipat"},"state":"ACTIVE","etag":"1_101694e0-eb80-4604-a142-75b363a3f0a9"}
 [info] i  hosting[githubactionatipat]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
 [info] +  hosting[githubactionatipat]: Local server: http://127.0.0.1:9999 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:9999\u001b[22m\u001b[24m"}}
 [warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
-[debug] [2025-04-23T03:55:35.904Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[debug] [2025-04-23T06:03:55.468Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
 [info] 
 ┌─────────────────────────────────────────────────────────────┐
 │ ✔  All emulators ready! It is now safe to connect your app. │
@@ -47,11 +47,3 @@
 
 Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
  
-[info] i  hosting: 127.0.0.1 - - [23/Apr/2025:03:55:41 +0000] "GET / HTTP/1.1" 200 371 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [23/Apr/2025:03:55:41 +0000] \"GET / HTTP/1.1\" 200 371 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [23/Apr/2025:03:55:42 +0000] "GET /bundle.js HTTP/1.1" 200 - "http://127.0.0.1:9999/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [23/Apr/2025:03:55:42 +0000] \"GET /bundle.js HTTP/1.1\" 200 - \"http://127.0.0.1:9999/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [23/Apr/2025:03:55:42 +0000] "GET /pug.jpg HTTP/1.1" 200 770433 "http://127.0.0.1:9999/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [23/Apr/2025:03:55:42 +0000] \"GET /pug.jpg HTTP/1.1\" 200 770433 \"http://127.0.0.1:9999/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [23/Apr/2025:03:55:42 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://127.0.0.1:9999/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [23/Apr/2025:03:55:42 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://127.0.0.1:9999/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [23/Apr/2025:03:56:05 +0000] "GET / HTTP/1.1" 200 371 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [23/Apr/2025:03:56:05 +0000] \"GET / HTTP/1.1\" 200 371 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [23/Apr/2025:03:56:05 +0000] "GET /bundle.js HTTP/1.1" 200 - "http://localhost:9999/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [23/Apr/2025:03:56:05 +0000] \"GET /bundle.js HTTP/1.1\" 200 - \"http://localhost:9999/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [23/Apr/2025:03:56:05 +0000] "GET /pug.jpg HTTP/1.1" 200 770433 "http://localhost:9999/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [23/Apr/2025:03:56:05 +0000] \"GET /pug.jpg HTTP/1.1\" 200 770433 \"http://localhost:9999/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [23/Apr/2025:03:56:06 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://localhost:9999/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [23/Apr/2025:03:56:06 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://localhost:9999/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
